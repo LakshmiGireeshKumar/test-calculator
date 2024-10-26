@@ -1,0 +1,35 @@
+/* src/Calculator.css */
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #fbf8f8;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 24px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8c3c3;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e09494;
+}
